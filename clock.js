@@ -14,4 +14,6 @@ const paintClock = () => {
   clock.innerText = `Now is ${hours} : ${minutes} : ${seconds}`
 }
 
+paintClock()
+
 setInterval(paintClock, ONE_SECOND)
