@@ -3,7 +3,7 @@
 ## Including functions
 
 - [x] Clock.
-- [ ] Username Persistance.
+- [x] Username Persistance.
 - [ ] To Do List.
 - [ ] Random Background Image.
 - [ ] Weather with Geolocation.
