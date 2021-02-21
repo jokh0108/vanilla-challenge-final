@@ -2,7 +2,7 @@
 
 ## Including functions
 
-- [ ] Clock.
+- [x] Clock.
 - [ ] Username Persistance.
 - [ ] To Do List.
 - [ ] Random Background Image.
