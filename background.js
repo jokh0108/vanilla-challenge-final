@@ -1,7 +1,7 @@
 const body = document.querySelector('body')
 
-const WIDTH = 500,
-  HEIGHT = 500
+const WIDTH = 1920,
+  HEIGHT = 1080
 
 const paintImage = (url) => {
   const backgroundImage = new Image()
