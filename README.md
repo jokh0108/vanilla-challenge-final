@@ -1,1 +1,1 @@
-The Final Vanilla.js Project of Nomad Coders
+# The Final Vanilla.js Project of Nomad Coders
