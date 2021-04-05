@@ -3,12 +3,13 @@ const form = document.querySelector('#jsForm'),
   greeting = document.querySelector('#jsGreeting')
 
 const USER_LS = 'username',
-  SHOWING_CN = 'showing'
+  SHOW_CN = 'show'
+
 
 const sayHello = (username) => {
-  form.classList.remove(SHOWING_CN)
-  greeting.classList.add(SHOWING_CN)
-  greeting.innerText = `hello, ${username}`
+  form.classList.remove(SHOW_CN)
+  greeting.classList.add(SHOW_CN)
+  greeting.innerText = `안녕하세요, ${username}님!`
 }
 
 const saveName = (username) => {
@@ -23,7 +24,7 @@ const onSubmit = (event) => {
 }
 
 const askForName = () => {
-  form.classList.add(SHOWING_CN)
+  form.classList.add(SHOW_CN)
   form.addEventListener('submit', onSubmit)
 }
 

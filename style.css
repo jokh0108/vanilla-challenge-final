@@ -26,13 +26,23 @@ body {
   align-items: center;
 }
 
+.form, .todoForm {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
 .form,
 .greeting {
   display: none;
 }
 
-.showing {
-  display: block;
+.unshow {
+  display: none;
+}
+
+.show {
+  display: flex;
 }
 
 .backgroundImage {
@@ -45,11 +55,6 @@ body {
   opacity: 70%;
 }
 
-.form, .todoForm {
-  width:100%;
-  display: flex;
-  justify-content: center;
-}
 
 input{
   font-family: 'Arita-dotum-Medium', 'Courier New', Courier, monospace;
