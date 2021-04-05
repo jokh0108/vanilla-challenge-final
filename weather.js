@@ -4,7 +4,7 @@ const COORDS = 'coords'
 const weather = document.querySelector('#jsWeather')
 
 const paintWeather = (temperature, place) => {
-  weather.innerText = `${temperature} @ ${place}`
+  weather.innerText = `${place}에 계시는군요! 현재는 ${temperature}도입니다.`
 }
 
 const getWeather = async (latitude, longitude) => {
@@ -38,6 +38,7 @@ const askForCoords = () => {
 }
 
 const loadCoords = async () => {
+  weather.innerText = `브라우저 위치 정보 수집을 허용해주세요`
   const loadedCoords = localStorage.getItem(COORDS)
   if (!loadedCoords) {
     askForCoords()
@@ -48,6 +49,4 @@ const loadCoords = async () => {
   }
 }
 
-;(() => {
-  loadCoords()
-})()
+loadCoords()
