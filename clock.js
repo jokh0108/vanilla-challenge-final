@@ -11,7 +11,7 @@ const paintClock = () => {
   const hours = makeTwoDigits(current.getHours())
   const minutes = makeTwoDigits(current.getMinutes())
   const seconds = makeTwoDigits(current.getSeconds())
-  clock.innerText = `Now is ${hours} : ${minutes} : ${seconds}`
+  clock.innerText = `지금은 ${hours}시 ${minutes}분 ${seconds}초 입니다.`
 }
 
 paintClock()
