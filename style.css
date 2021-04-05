@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Arita-dotum-Medium', 'Courier New', Courier, monospace;
+  background-color: #242333bf;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #242333af;
+  width: 50vw;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .form,
 .greeting {
   display: none;
@@ -15,4 +43,20 @@
   height: 100%;
   z-index: -1;
   opacity: 70%;
+}
+
+.form, .todoForm {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  font-family: 'Arita-dotum-Medium', 'Courier New', Courier, monospace;
+  background-color: white;
+  color: black;
+  width: 30vw;
+  padding: 5px 10px;
+  border: none;
+  text-align: center;
 }
